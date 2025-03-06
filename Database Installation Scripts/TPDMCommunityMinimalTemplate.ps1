@@ -10,8 +10,8 @@ Import-Module -Force -Scope Global (Get-RepositoryResolvedPath "logistics\script
 Import-Module -Force -Scope Global (Get-RepositoryResolvedPath 'logistics\scripts\modules\utility\hashtable.psm1')
 
 $parameters = @{
-    packageName     = "EdFi.Suite3.Ods.Minimal.Template.TPDM.Community"
-    packageVersion  = "5.3.67"
+    packageName     = "EdFi.Suite3.Ods.Minimal.Template.TPDM.Community.1.2.0.Standard.5.1.0"
+    packageVersion  = "7.2.671"
     packageSource   = "https://pkgs.dev.azure.com/ed-fi-alliance/Ed-Fi-Alliance-OSS/_packaging/EdFi/nuget/v3/index.json"
     outputDirectory = "$PSScriptRoot/../Database"
     toolsPath       = (Get-ToolsPath)
